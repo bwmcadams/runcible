@@ -1,7 +1,7 @@
 package runcible.test.monsters;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Collection;
 
 /**
    A typical imperative, mutable Java class that so many (otherwise
@@ -10,7 +10,7 @@ import java.util.List;
 public class Monstrosity {
     private String field1;
     private int field2;
-    private List<Long> field3;
+    private Collection<Long> field3;
 
     public Monstrosity() {
         field1 = "some default value";
@@ -24,8 +24,8 @@ public class Monstrosity {
     public int getField2() { return field2; }
     public void setField2(int v) { field2 = v; }
 
-    public List<Long> getField3() { return field3; }
-    public void setField3(List<Long> v) { field3 = v; }
+    public Collection<Long> getField3() { return field3; }
+    public void setField3(Collection<Long> v) { field3 = v; }
 
     public String frobnicate() {
         return "ohai, " + field1 + " (" + field2
