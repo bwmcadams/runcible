@@ -6,7 +6,7 @@ import java.util.List;
 /**
    A typical imperative, mutable Java class that so many (otherwise
    awesome) Java libraries are littred with.
-*/
+**/
 public class Monstrosity {
     private String field1;
     private int field2;
